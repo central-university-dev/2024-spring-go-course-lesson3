@@ -5,11 +5,6 @@ import (
 	"os"
 )
 
-type Person struct {
-	Name    string
-	Surname string
-}
-
 func Run() (err error) {
 	/*
 		v := 5

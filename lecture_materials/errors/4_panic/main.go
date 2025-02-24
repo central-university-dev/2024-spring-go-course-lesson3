@@ -13,7 +13,7 @@ type Person struct {
 func Run() (err error) {
 	/*
 		defer func() {
-			fmt.Println("defer 3")
+			fmt.Println("defer")
 			//if r := recover(); r != nil {
 			//	err = fmt.Errorf("panic %v", r)
 			//}
